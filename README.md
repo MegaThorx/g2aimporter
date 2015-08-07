@@ -17,8 +17,6 @@ or add this line in your composer.json and run composer update
 "zborowski/g2aimport": "0.8.*"
 ```
 
-
-
 Register Service Provider
 ``` php
 Zborowski\G2aimport\G2aimportServiceProvider::class,
