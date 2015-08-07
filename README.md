@@ -1,4 +1,4 @@
-# G2AImporter
+# G2AImporter for Laravel 5
 
 [![Software License][ico-license]](LICENSE.md)
 
@@ -15,7 +15,7 @@ $ composer require zborowski/G2AImporter
 ## Usage
 
 ``` php
-php artisan vendor:publishs
+php artisan vendor:publish
 php artisan migrate
 php artisan g2a:import
 ```
