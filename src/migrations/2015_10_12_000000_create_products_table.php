@@ -22,9 +22,9 @@ class CreateProductsTable extends Migration
              $table->decimal('minPrice',10,2);
              $table->integer('g2aQty');
              $table->decimal('g2aPrice');
-             $table->integer('retialQty');
-             $table->decimal('retialPrice',10,2);
-             $table->integer('retialAuction');
+             $table->integer('retailQty');
+             $table->decimal('retailPrice',10,2);
+             $table->integer('retailAuction');
              $table->integer('selectedAuction');
              $table->integer('wholesaleQty');
              $table->decimal('wholesaleMinPrice',10,2);
