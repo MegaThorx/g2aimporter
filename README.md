@@ -12,6 +12,23 @@ Via Composer
 $ composer require zborowski/G2AImporter
 ```
 
+or add this line in your composer.json and run composer update
+``` bash
+"zborowski/g2aimport": "0.8.0"
+```
+
+
+
+Register Service Provider
+``` php
+Zborowski\G2aimport\G2aimportServiceProvider::class,
+```
+
+
+``` bash
+$ composer require zborowski/G2AImporter
+```
+
 ## Usage
 
 ``` php
