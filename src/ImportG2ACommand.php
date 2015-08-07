@@ -43,11 +43,13 @@ class ImportG2ACommand extends Command
             $item = $this->getG2AData($i);
             $keys = [];
             $values = [];
+            $arr = [];
             foreach ($item as $key => $value) {
                 array_push($keys,$key);
                 array_push($values,$value);
+                array_push($arr,"?");
             }
-            DB::insert("insert into products (".implode(",",$keys).") values ('".implode("', '",$values)."')");
+            DB::insert("insert into products (".implode(",",$keys).") values (".implode(",",$arr).")", $values);
         }
     }
 
