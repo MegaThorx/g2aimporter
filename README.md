@@ -2,13 +2,8 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+Simple G2A importer to import products to your own database.
 
 ## Install
 
@@ -21,6 +16,8 @@ $ composer require zborowski/G2AImporter
 ## Usage
 
 ``` php
+php artisan vendor:publishs
+php artisan migrate
 php artisan g2a:import
 ```
 
