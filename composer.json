@@ -1,6 +1,6 @@
 {
     "name": "zborowski/g2aimport",
-    "version": "v0.8.1",
+    "version": "v0.8.2",
     "description": "Simple package to import G2A Products to your own database",
     "keywords": [
         "G2AImporter"
